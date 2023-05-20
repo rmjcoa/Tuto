@@ -1,0 +1,349 @@
+
+#block-login {
+  background-color: #ececec;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formA {
+    background-color: #fefefe;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formA input{
+    background-color: #fdfdcc;
+    border: none;
+    width: 100%;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: #2f2d0f;
+   
+}
+.btn1{
+    background-color: #316df4;
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+    color: #fdfdcc;
+    border: none;
+    border-radius: 5px;
+}
+.icon-messenger {
+    font-size: 4rem;
+    text-align: center;
+    color: #ececec;
+    margin: 10px 0 20px 0;
+}
+.bloc {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.creer_compte{
+    color: #3f8458;
+}
+.creer_compte:hover{
+    color: #3f8458;
+    font-weight: bold;
+}
+.image  {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-item a {
+    color: white;
+    outline: none;
+}
+
+/* Angelo */
+@font-face {
+    font-family: 'font1';
+    src: url("../font/Lora-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: 'font2';
+    src: url("../font/Roboto-Regular.ttf");
+}
+*{
+
+     font-family: 'font2';
+ 
+}
+.mdp_oublier{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+hr{
+    background-color: #f2f2f2;
+    opacity: 0.8;
+    width: 100%;
+    height: 0.5px;
+    margin: 10px 0 15px 0;
+}
+
+
+/*
+a{
+    text-decoration: none;
+    color: #e4e6eb;
+}
+a:hover{
+    text-decoration: none;
+    color: #e4e6eb;
+}
+/* Version Ordinateur */
+/* @media all and (min-width:812px){
+    section{
+        display: flex;
+        width: 100%;
+        height: 100px;
+        border: 2px dashed #0059ff;
+    }
+} */
+/* Version Mobile */
+
+    main{
+        position: relative;
+        overflow: hidden;
+        height: 100vh;
+        background-color: #000000;
+    }
+    .user_connect{
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+    .user_actif{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    /* nav3 */
+    .navigation{
+        text-align: center;
+        padding: 10px 0;
+    }
+    .navigation h4{
+        color: #fefefe;
+    }
+    
+    /* recherche */
+    .recherche{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+        width: 100%;
+       
+    }
+    .recherche form{
+        padding: 3px 15px ;
+        border-radius: 10px;
+        background-color: #333335;
+        width: 100%;
+      
+    }
+    .fa-search{
+        color: #8a8a8b;
+    }
+    .recherche input{
+        background-color: transparent;
+        border: none;
+        color: #fefefe;
+        width: 95%;
+        outline: none;
+    }
+    /* Les utilisateurs */
+    section::-webkit-scrollbar{
+        height: 2px;
+        cursor: pointer;
+    }
+    section::-webkit-scrollbar-thumb{
+        background-color: #8a8a8b;
+        border-radius: 5px;
+       
+    }
+    section {
+        display: flex;
+        width: 100%;
+        height: auto;
+        /* border: 2px dashed red; */
+        overflow: auto;
+        padding: 10px 0;
+    }
+    .block-body {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .colonne{
+        width: 100%;
+        height: 100px;
+        flex: none;
+        display: flex;
+        flex-direction: row;
+    }
+    .colonne button {
+        background-color: #000000;
+        border: none;
+    }
+    .perso{
+        width: 55px;
+        height: 55px;
+        border: 2px solid #2d88ff;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .utilisateur{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+
+    }
+    .nomComplet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.8rem;
+        margin-top: 5px;
+       
+    }
+    .nom, .prenom{
+        color: #fefefe;
+    }
+    /* Contenue */
+    ::-webkit-scrollbar{
+        width: 2px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: #8a8a8b;
+        border-radius: 5px;
+    }
+    header{
+        background-color: #000;
+        width: 100%;
+        height: 420px;
+        padding: 10px 0;
+        position: relative;
+        overflow: auto;
+        
+    }
+    header .contenue{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        width: 50%;
+        margin: 10px 15px;
+        /* border: 2px dashed red; */
+        
+    }
+    .nomComplet1 div span{
+        text-overflow: unset;
+        width: 100%;
+        height: 60px;
+    }
+    .contenue .perso {
+        margin-right: 10px;
+    }
+    .dernier_mssg{
+        color: #6d6d6d;
+    }
+    /* Bouton groupe */
+    footer{
+        background-color: #2d88ff;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+    .fa-plus{
+        font-size: 1.3rem;
+        color: #ffffff;
+    }
+    /* Message */
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 15px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        background-color: #000000f4;
+    }
+    .user_message{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .fa-phone{
+        transform: rotate(90deg);
+    }
+    .color1{
+        color: #943bf5;
+        font-size: 1.5rem;
+    }
+    aside{
+        width: 100%;
+        height: 100vh;
+        overflow: auto;
+        color: white;
+    }
+    form.input{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        background-color: #000;
+        /* border: 1px dashed red; */
+        height: auto;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        padding: 5px 0 0 15px;
+    }
+    .color2{
+        color: #3970f6;
+        font-size: 1.5rem;
+    }
+    form.input textarea{
+        background-color: #303030;
+        border-radius: 20px;
+        border: none;
+        padding: 7px 15px;
+        outline: none;
+        color: #e4e6eb;
+        width: 300px;
+        height: 40px;
+        max-height: 300px;
+        resize: none;
+    }
